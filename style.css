@@ -24,20 +24,21 @@ body {
     border-radius: 20px; /* פינות מעוגלות */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* צל עדין */
 }
-
-@media (max-width: 768px) {
-  .container {
- border: 3px solid #333; /* מסגרת עבה בצבע אפור כהה */
+.container {
+    border: 3px solid #333; /* מסגרת עבה בצבע אפור כהה */
     display: flex;
     justify-content: space-around; /* מרכז את המקטעים בתוך הקונטיינר */
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .container {
     width: 95%;
   }
   .header {
     font-size: 1.5em;
   }
 }
-
 
 .section:hover {
     transform: scale(1.05); /* הגדלה קלה בעת מעבר עכבר */
