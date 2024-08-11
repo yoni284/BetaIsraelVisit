@@ -1,0 +1,85 @@
+
+body {
+ text-align:center;
+ padding:10px;
+  background-color: ivory;
+  font-size: 16px;
+  overflow-x: hidden;
+
+}
+
+.framed-image {
+    border: 5px solid black; /* מסגרת שחורה בעובי 5 פיקסלים */
+    border-radius: 10px; /* פינות מעוגלות */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* צל עדין */
+    width: 200px; /* רוחב התמונה */
+}
+.container {
+    border: 3px solid #333; /* מסגרת עבה בצבע אפור כהה */
+    display: flex;
+    justify-content: space-around; /* מרכז את המקטעים בתוך הקונטיינר */
+  width: 100%;
+}
+
+
+.section {
+    flex: 1;
+    text-align: center;
+    padding:10px;
+    background-color: #f0f0f0;
+    border-radius: 20px; /* פינות מעוגלות */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* צל עדין */
+
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+  .header {
+    font-size: 1.5em;
+  }
+}
+
+
+.section:hover {
+    transform: scale(1.05); /* הגדלה קלה בעת מעבר עכבר */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); /* צל בולט יותר */
+
+ img:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s ease-in-out;
+}
+
+.instagram-link {
+  display: inline-flex;
+  align-items: center;
+  color: #c13584;
+  text-decoration: none;
+}
+
+h3 {
+  color: #333; /* צבע אפור כהה */
+  font-family: Arial, sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center; /* מרכז את הטקסט */
+}
+
+
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img, iframe, video {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
