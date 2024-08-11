@@ -5,7 +5,9 @@ body {
   background-color: ivory;
   font-size: 16px;
   overflow-x: hidden;
-
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .framed-image {
